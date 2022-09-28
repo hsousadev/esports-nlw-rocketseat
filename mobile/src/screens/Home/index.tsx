@@ -24,7 +24,7 @@ export function Home() {
     fetch("http://192.168.0.4:3000/games")
       .then((response) => response.json())
       .then((data) => setGames(data));
-  });
+  }, []);
 
   return (
     <Background>
