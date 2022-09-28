@@ -13,7 +13,7 @@ app.use(cors());
 // :::Example in production:::
 // app.use(
 //   cors({
-//     origin: "https://rocketseat.com",
+//     origin: "http://localhost:5173/",
 //   })
 // );
 
